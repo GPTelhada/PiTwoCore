@@ -8,7 +8,7 @@ This Arduino sketch demonstrates a dual-core approach to calculating Pi using th
 - **Core 1** handles the odd-indexed terms.
 - The results from both cores are synchronized using a semaphore and then combined to produce the final approximation of Pi.
 
-## Setup
+## Usage
 1. **Hardware Requirements**: ESP32-S3 microcontroller.
 2. **Software Requirements**: Arduino IDE with ESP32 board support.
 3. **Setup**: 
